@@ -1,0 +1,225 @@
+// Vimix Beryl color palette
+$base03: #2e3034;
+$base02: #393c41;
+$base01: #eaeaea;
+$base00: #657b83;
+$base0: #839496;
+$base1: #93a1a1;
+$base2: #eee8d5;
+$base3: #fdf6e3;
+$yellow: #c4a500;
+$orange: #cb4b16;
+$red: #dc322f;
+$magenta: #d33682;
+$violet: #6c71c4;
+$blue: #268bd2;
+$cyan: #2aa198;
+$green: #7da900;
+
+$base-font-family: 'Fira Sans Medium';
+
+// Theme Colors
+$color-base: $base03;
+$color-highlight: $cyan;
+
+$color-red: $red;
+$color-green: $green;
+$color-yellow: $yellow;
+
+$black: $base02;
+$white: $base2;
+
+$color-shade-darkest: darken($color-base, 10%);
+$color-shade-dark: darken($color-base, 5%);
+$color-shade-mid: $color-base;
+$color-shade-light: lighten($color-base, 5%);
+$color-shade-lightest: lighten($color-base, 10%);
+
+// Font Colors
+//$base-font-color: lighten($base01, 5%);
+$base-font-color: $base01;
+
+$base-link-color: $base0;
+$base-link-color-active: $red;
+
+// general fixes
+
+body, [lang] #msg_input {
+  font-family: $base-font-family, sans-serif !important;
+  font-weight: 400 !important;
+}
+
+.p-channel_sidebar__banner--unreads,
+.c-mrkdwn__broadcast--mention,
+a.c-member_slug, .c-member_slug--link,
+.c-mrkdwn__subteam--link {
+  background: $color-shade-dark;
+  color: $base-link-color;
+}
+
+.c-icon_button--light,
+.c-icon_button--light.c-button-unstyled,
+.c-icon_button--light:link {
+  color: $base-link-color;
+}
+
+#team_menu:hover,
+body:not(.loading) #team_menu:hover,
+body:not(.loading) #team_menu.active,
+.menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link),
+#msg_input.focus + #primary_file_button:not(:hover):not(.active) {
+  background: $color-base !important;
+  border-color: $color-base !important;
+}
+
+.c-fullscreen_modal__content {
+  background: $color-base !important;
+}
+
+.c-app_badge {
+  color: $base-link-color;
+}
+
+.c-pillow_file__content--collapsed:after {
+  background: linear-gradient(0deg,$color-shade-darkest,hsla(0,0%,100%,0) 40px);
+}
+
+#footer {
+  padding-top: 1em;
+  box-shadow: inset 0 5px 0 0 $color-shade-dark;
+}
+
+.p-message_pane__unread_banner__banner:hover,
+.p-message_pane__unread_banner__close--detached,
+.p-message_pane__unread_banner {
+  background: $color-shade-dark;
+  border-left-color: $color-shade-dark;
+}
+
+.p-message_pane__unread_banner__close--detached:hover {
+  background: $color-shade-darkest;
+  border-left-color: $color-shade-darkest;
+}
+// scrollbar fixes
+
+.c-scrollbar__bar {
+  background: $color-shade-light !important;
+  border-left-color: $color-shade-light !important;
+  border-right-color: $color-shade-light !important;
+  color: $color-shade-light !important;
+}
+
+::-webkit-scrollbar-track {
+  background: $color-shade-light !important;
+  border-left-color: $color-shade-light !important;
+  border-right-color: $color-shade-light !important;
+  color: $color-shade-light !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $color-shade-light !important;
+  border-left-color: $color-shade-light !important;
+  border-right-color: $color-shade-light !important;
+  color: $color-shade-light !important;
+}
+
+::-webkit-scrollbar-corner {
+  background: $color-base !important;
+}
+
+.supports_custom_scrollbar {
+  #messages_container::after {
+    background: none !important;
+  }
+}
+
+.monkey_scroll_bar {
+  background: $color-shade-light;
+}
+
+.monkey_scroll_handle_inner {
+  background: $color-shade-light;
+  border: 1px solid $color-shade-lightest;
+}
+
+.monkey_scroll_bar_native_scrollbar_shim {
+  background: transparent;
+}
+
+#client-ui {
+  .monkey_scroll_bar {
+    background: $color-shade-light;
+  }
+
+  .monkey_scroll_handle_inner {
+    background: $color-shade-light;
+    border: 3px solid $color-base;
+  }
+}
+
+.c-scrollbar--monkey .c-scrollbar {
+  &__track {
+    background: $color-shade-light;
+  }
+
+  &__bar {
+    background: $color-shade-light;
+    box-shadow: 0 3px 0 $color-base, 0 -3px 0 $color-base;
+  }
+}
+
+// thread fixes
+
+.c-channel_name,
+.c-link p-threads_view_header__permalink {
+  color: $base-link-color;
+}
+
+#client_body::before,
+.c-virtual_list__item,
+.c-virtual_list__scroll_container,
+.p-threads_view__default_background,
+.p_threads_view_load_older_button {
+  background: $color-base !important;
+  color: $base-font-color !important;
+}
+
+.p-threads_view__divider_label {
+  background: $color-shade-dark !important;
+  color: $base-font-color !important;
+}
+
+.p-threads_view_root,
+.p_threads_view_load_older_button,
+.p-threads_view__footer,
+.p-threads_view_reply {
+  border-color: $color-shade-light !important;
+}
+
+.c-link--button {
+  color: $base-link-color;
+  &:hover {
+    color: $base-link-color-active;
+  }
+
+}
+
+.p-threads_view__divider_line {
+  border-top-color: $color-shade-dark !important;
+}
+
+.p-threads_flexpane__separator_count {
+  color: darken($base-font-color, 10%);
+}
+
+.ts-message.message:hover,
+.ts-message.message:hover {
+  background: $color-shade-dark !important;
+}
+
+.p-threads_footer__input--legacy .p-message_input_field,
+.p-threads_footer__input .p-message_input_field.focus,
+.p-threads_footer__input--legacy .p-message_input_file_button {
+  border-color: $color-base !important;
+}
+

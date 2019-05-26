@@ -1,11 +1,11 @@
 #team_menu {
-  background: $color-shade-dark;
+  background: inherit;
   border-bottom: 2px solid $color-shade-dark;
   color: $base-font-color;
 
   &.active,
   &:hover {
-    background: $color-shade-dark !important;
+    background: inherit !important;
     border-bottom-color: $color-shade-dark !important;
 
     i {
