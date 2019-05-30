@@ -49,6 +49,13 @@ body, [lang] #msg_input {
   font-weight: 400 !important;
 }
 
+code, pre {
+  font-family: "Fira Code" !important;
+}
+.c-mrkdwn__pre, .c-mrkdwn__quote {
+  font-family: "Fira Code" !important;
+}
+
 .p-channel_sidebar__banner--unreads,
 .c-mrkdwn__broadcast--mention,
 a.c-member_slug, .c-member_slug--link,
