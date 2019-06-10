@@ -230,7 +230,8 @@ body:not(.loading) #team_menu.active,
   border-color: $color-base !important;
 }
 
-.p-threads_view_reply--new_reply {
+.p-threads_view_reply--new_reply,
+.p-threads_view_reply .p-threads_view_reply--new_reply {
   background: $color-shade-light !important;
   color: $base-font-color !important;
 }
