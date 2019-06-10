@@ -231,7 +231,7 @@ body:not(.loading) #team_menu.active,
 }
 
 .p-threads_view_reply--new_reply,
-.p-threads_view_reply .p-threads_view_reply--new_reply {
+.p-threads_view_reply, .p-threads_view_reply--new_reply {
   background: $color-shade-light !important;
   color: $base-font-color !important;
 }
