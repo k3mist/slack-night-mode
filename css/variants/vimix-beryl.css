@@ -141,6 +141,10 @@ body:not(.loading) #team_menu.active,
 .p-threads_footer__input--legacy .p-message_input_file_button {
   border-color: #2e3034 !important; }
 
+.p-threads_view_reply--new_reply {
+  background: #3a3c42 !important;
+  color: #eaeaea !important; }
+
 @-moz-document regexp("https://[^./]*\\.slack\\.com/(?!pricing)(?!security).*") {
   body {
     background: #2e3034;
