@@ -122,7 +122,8 @@ body:not(.loading) #team_menu.active,
 .p-threads_view_root,
 .p_threads_view_load_older_button,
 .p-threads_view__footer,
-.p-threads_view_reply {
+.p-threads_view_reply,
+.p-unreads_view__spacer--bottom {
   border-color: #3a3c42 !important; }
 
 .c-link--button {
@@ -133,7 +134,8 @@ body:not(.loading) #team_menu.active,
 .p-threads_view__divider_line {
   border-top-color: #222426 !important; }
 
-.p-threads_flexpane__separator_count {
+.p-threads_flexpane__separator_count,
+.p-classic_nav__channel_header__subtitle {
   color: #d1d1d1; }
 
 .ts-message.message:hover,
