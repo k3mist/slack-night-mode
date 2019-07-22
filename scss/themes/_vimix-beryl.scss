@@ -59,7 +59,8 @@ code, pre {
 .p-channel_sidebar__banner--unreads,
 .c-mrkdwn__broadcast--mention,
 a.c-member_slug, .c-member_slug--link,
-.c-mrkdwn__subteam--link {
+.c-mrkdwn__subteam--link,
+.c-button--outline {
   background: $color-shade-dark;
   color: $base-link-color;
 }
@@ -186,7 +187,10 @@ body:not(.loading) #team_menu.active,
 .c-virtual_list__item,
 .c-virtual_list__scroll_container,
 .p-threads_view__default_background,
-.p_threads_view_load_older_button {
+.p_threads_view_load_older_button,
+.p-unreads_view__header,
+.p-classic_nav__channel_header__title,
+.p-classic_nav__no_drag {
   background: $color-base !important;
   color: $base-font-color !important;
 }
