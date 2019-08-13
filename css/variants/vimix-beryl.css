@@ -139,8 +139,14 @@ body:not(.loading) #team_menu.active,
 
 .p-threads_flexpane__separator_count,
 .p-classic_nav__channel_header__subtitle,
-.p-dm_browser_modal__list_heading {
+.p-dm_browser_modal__list_heading,
+.c-base_entity__metadata,
+.c-base_entity__subtext,
+.p-dm_browser_modal__list_row_meta {
   color: #d1d1d1; }
+
+.p-unreads_view__header--was_marked {
+  box-shadow: inset 0 -1px #222426; }
 
 .ts-message.message:hover,
 .ts-message.message:hover {
