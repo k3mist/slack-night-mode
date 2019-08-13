@@ -60,7 +60,10 @@ code, pre {
 .c-mrkdwn__broadcast--mention,
 a.c-member_slug, .c-member_slug--link,
 .c-mrkdwn__subteam--link,
-.c-button--outline {
+.c-button--outline,
+.c-multi_select_input,
+.c-multi_select_input__input[type=text],
+.p-dm_browser_modal__list_row--active {
   background: $color-shade-dark;
   color: $base-link-color;
 }
@@ -221,7 +224,8 @@ body:not(.loading) #team_menu.active,
 }
 
 .p-threads_flexpane__separator_count,
-.p-classic_nav__channel_header__subtitle {
+.p-classic_nav__channel_header__subtitle,
+.p-dm_browser_modal__list_heading {
   color: darken($base-font-color, 10%);
 }
 
