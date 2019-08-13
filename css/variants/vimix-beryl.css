@@ -142,7 +142,8 @@ body:not(.loading) #team_menu.active,
 .p-dm_browser_modal__list_heading,
 .c-base_entity__metadata,
 .c-base_entity__subtext,
-.p-dm_browser_modal__list_row_meta {
+.p-dm_browser_modal__list_row_meta,
+.c-fullscreen_modal__body {
   color: #d1d1d1; }
 
 .p-unreads_view__header--was_marked {
