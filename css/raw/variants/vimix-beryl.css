@@ -39,7 +39,7 @@ body:not(.loading) #team_menu.active,
   color: #839496; }
 
 .c-pillow_file_container {
-  max-width: auto !important; }
+  max-width: 100% !important; }
 
 .c-pillow_file__content--collapsed:after {
   background: linear-gradient(0deg, #161719, rgba(255, 255, 255, 0) 40px); }
