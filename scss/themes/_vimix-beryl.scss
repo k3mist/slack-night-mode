@@ -100,7 +100,8 @@ body:not(.loading) #team_menu.active,
 }
 
 .c-pillow_file__snippet__content .CodeMirror,
-.c-pillow_file__snippet__content .CodeMirror-code>div:before {
+.c-pillow_file__snippet__content .CodeMirror-code>div:before,
+.c-pillow_file__snippet__truncated {
   background: $color-shade-dark;
   color: $base-link-color;
 }

@@ -45,7 +45,8 @@ body:not(.loading) #team_menu.active,
   background: linear-gradient(0deg, #161719, rgba(255, 255, 255, 0) 40px); }
 
 .c-pillow_file__snippet__content .CodeMirror,
-.c-pillow_file__snippet__content .CodeMirror-code > div:before {
+.c-pillow_file__snippet__content .CodeMirror-code > div:before,
+.c-pillow_file__snippet__truncated {
   background: #222426;
   color: #839496; }
 
