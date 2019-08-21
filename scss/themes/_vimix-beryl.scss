@@ -91,6 +91,10 @@ body:not(.loading) #team_menu.active,
   color: $base-link-color;
 }
 
+.c-pillow_file_container {
+ max-width: auto;
+}
+
 .c-pillow_file__content--collapsed:after {
   background: linear-gradient(0deg,$color-shade-darkest,hsla(0,0%,100%,0) 40px);
 }
