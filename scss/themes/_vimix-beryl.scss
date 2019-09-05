@@ -204,7 +204,8 @@ body:not(.loading) #team_menu.active,
 .p_threads_view_load_older_button,
 .p-unreads_view__header,
 .p-classic_nav__channel_header__title,
-.p-classic_nav__no_drag {
+.p-classic_nav__no_drag,
+.c-message_attachment__author_name {
   background: $color-base !important;
   color: $base-font-color !important;
 }
