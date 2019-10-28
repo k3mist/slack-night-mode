@@ -8,6 +8,14 @@ code, pre {
 .c-mrkdwn__pre, .c-mrkdwn__quote {
   font-family: "Fira Code Medium" !important; }
 
+.p-classic_nav,
+.p-team_sidebar,
+.workspace__primary_view_footer {
+  background: #2e3034 !important; }
+
+.p-team_sidebar {
+  background: #36393e !important; }
+
 .p-channel_sidebar__banner--unreads,
 .c-mrkdwn__broadcast--mention,
 a.c-member_slug, .c-member_slug--link,
@@ -47,7 +55,7 @@ body:not(.loading) #team_menu.active,
 .c-pillow_file__snippet__content .CodeMirror,
 .c-pillow_file__snippet__content .CodeMirror-code > div:before,
 .c-pillow_file__snippet__truncated {
-  background: #222426;
+  background: #2e3034;
   color: #839496; }
 
 #footer, #footer.footer_msg_input {
@@ -59,6 +67,11 @@ body:not(.loading) #team_menu.active,
 .p-message_pane__unread_banner {
   background: #222426;
   border-left-color: #222426; }
+
+.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before,
+.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before,
+.c-message_list__day_divider__label__pill {
+  background: #2e3034; }
 
 .p-message_pane__unread_banner__close--detached:hover {
   background: #161719;
@@ -171,6 +184,12 @@ body:not(.loading) #team_menu.active,
 .p-threads_view_reply--new_reply {
   background: #3a3c42 !important;
   color: #eaeaea !important; }
+
+.p-unreads_view__empty__message::after {
+  content: "Clear"; }
+
+.p-unreads_view__empty__message * {
+  display: none; }
 
 @-moz-document regexp("https://[^./]*\\.slack\\.com/(?!pricing)(?!security).*") {
   body {

@@ -15,6 +15,7 @@ $violet: #6c71c4;
 $blue: #268bd2;
 $cyan: #2aa198;
 $green: #7da900;
+$vimix: #36393e;
 
 $base-font-family: 'Fira Sans Medium';
 
@@ -54,6 +55,16 @@ code, pre {
 }
 .c-mrkdwn__pre, .c-mrkdwn__quote {
   font-family: "Fira Code Medium" !important;
+}
+
+.p-classic_nav,
+.p-team_sidebar,
+.workspace__primary_view_footer {
+  background: $color-base !important;
+}
+
+.p-team_sidebar {
+  background: $vimix !important;
 }
 
 .p-channel_sidebar__banner--unreads,
@@ -102,7 +113,7 @@ body:not(.loading) #team_menu.active,
 .c-pillow_file__snippet__content .CodeMirror,
 .c-pillow_file__snippet__content .CodeMirror-code>div:before,
 .c-pillow_file__snippet__truncated {
-  background: $color-shade-dark;
+  background: $color-shade-mid;
   color: $base-link-color;
 }
 
@@ -116,6 +127,12 @@ body:not(.loading) #team_menu.active,
 .p-message_pane__unread_banner {
   background: $color-shade-dark;
   border-left-color: $color-shade-dark;
+}
+
+.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before,
+.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before,
+.c-message_list__day_divider__label__pill {
+  background: $color-shade-mid;
 }
 
 .p-message_pane__unread_banner__close--detached:hover {
@@ -265,3 +282,9 @@ body:not(.loading) #team_menu.active,
   color: $base-font-color !important;
 }
 
+.p-unreads_view__empty__message::after {
+    content: "Clear";
+}
+.p-unreads_view__empty__message * {
+    display: none;
+}
