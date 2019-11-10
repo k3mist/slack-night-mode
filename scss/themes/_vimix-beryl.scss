@@ -45,7 +45,7 @@ $base-link-color-active: $red;
 
 // general fixes
 
-body, [lang] #msg_input {
+body, [lang] #msg_input, [lang] .c-message {
   font-family: $base-font-family, sans-serif !important;
   //font-weight: 400 !important;
   font-size: 12px;
