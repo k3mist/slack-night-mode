@@ -1,5 +1,6 @@
 body, [lang] #msg_input {
-  font-family: "Noto Sans", sans-serif !important; }
+  font-family: "Noto Sans", sans-serif !important;
+  font-size: 12px; }
 
 code, pre {
   font-family: "Fira Code Medium" !important; }
