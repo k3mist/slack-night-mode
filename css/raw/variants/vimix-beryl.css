@@ -1,5 +1,5 @@
 body, [lang] #msg_input {
-  font-family: "Fira Sans Medium", sans-serif !important;
+  font-family: "Noto Sans", sans-serif !important;
   font-weight: 400 !important; }
 
 code, pre {
@@ -819,7 +819,7 @@ textarea[readonly] {
   background: #3a3c42;
   border-color: #2e3034;
   color: #eaeaea;
-  font-family: "Fira Sans Medium"; }
+  font-family: "Noto Sans"; }
   #msg_input::-webkit-input-placeholder {
     color: #eaeaea !important;
     -webkit-filter: none;
@@ -2763,7 +2763,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   color: #839496; }
 
 .c-message--dense {
-  font-family: "Fira Sans Medium"; }
+  font-family: "Noto Sans"; }
   .c-message--dense .c-timestamp__label {
     color: #839496; }
   .c-message--dense .c-message__content_header .c-custom_status {
@@ -2771,7 +2771,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
 
 .dense_theme ts-message {
   color: #eaeaea;
-  font-family: "Fira Sans Medium"; }
+  font-family: "Noto Sans"; }
   .dense_theme ts-message.first .message_gutter .timestamp,
   .dense_theme ts-message.selected .message_gutter .timestamp {
     color: #839496; }
@@ -2779,13 +2779,13 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
     border-color: #222426; }
 
 .c-message--light {
-  font-family: "Fira Sans Medium"; }
+  font-family: "Noto Sans"; }
   .c-message--light .c-message__sender .c-message__sender_link {
     color: #eaeaea; }
 
 .light_theme ts-message {
   color: #eaeaea;
-  font-family: "Fira Sans Medium"; }
+  font-family: "Noto Sans"; }
   .light_theme ts-message .message_content .message_sender,
   .light_theme ts-message .message_content .meta .message_sender:hover {
     color: #eaeaea !important; }
