@@ -1,5 +1,5 @@
 body, [lang] #msg_input, [lang] .c-message {
-  font-family: "Noto Sans", sans-serif !important;
+  font-family: "Ubuntu", sans-serif !important;
   font-size: 15px; }
 
 code, pre {
@@ -709,7 +709,7 @@ body:not(.loading) #team_menu.active,
     background: #3a3c42;
     border-color: #2e3034;
     color: #eaeaea;
-    font-family: "Noto Sans"; }
+    font-family: "Ubuntu"; }
     #msg_input::-webkit-input-placeholder {
       color: #eaeaea !important;
       -webkit-filter: none;
@@ -2343,26 +2343,26 @@ body:not(.loading) #team_menu.active,
   .sssh-link {
     color: #839496; }
   .c-message--dense {
-    font-family: "Noto Sans"; }
+    font-family: "Ubuntu"; }
     .c-message--dense .c-timestamp__label {
       color: #839496; }
     .c-message--dense .c-message__content_header .c-custom_status {
       border-color: #222426; }
   .dense_theme ts-message {
     color: #eaeaea;
-    font-family: "Noto Sans"; }
+    font-family: "Ubuntu"; }
     .dense_theme ts-message.first .message_gutter .timestamp,
     .dense_theme ts-message.selected .message_gutter .timestamp {
       color: #839496; }
     .dense_theme ts-message .message_content .message_current_status {
       border-color: #222426; }
   .c-message--light {
-    font-family: "Noto Sans"; }
+    font-family: "Ubuntu"; }
     .c-message--light .c-message__sender .c-message__sender_link {
       color: #eaeaea; }
   .light_theme ts-message {
     color: #eaeaea;
-    font-family: "Noto Sans"; }
+    font-family: "Ubuntu"; }
     .light_theme ts-message .message_content .message_sender,
     .light_theme ts-message .message_content .meta .message_sender:hover {
       color: #eaeaea !important; }
